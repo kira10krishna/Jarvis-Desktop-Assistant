@@ -8,4 +8,4 @@ Note: Please do create virtual environment to not mess up you other project's py
 I will mention the process to create venv and to install all python library inside it, after my requirements.txt file becomes stable.
 
 
-Possible deadline for project completiion: 31 March 2024
+Possible deadline for project completion: 31 March 2024
