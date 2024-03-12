@@ -1,5 +1,5 @@
-import speech_recognition as sr
-import os
+# import speech_recognition as sr
+# import os
 import asyncio
 import time
 import pyttsx3
@@ -23,7 +23,7 @@ async def main():
     start_time = time.time()  # Record start time before initialization
 
     print("Kira")
-    await speak("Hello")
+    await speak("Hello, How may I assist you")
 
     end_time = time.time()  # Record end time after runAndWait
     # Calculate and print the execution time
@@ -32,4 +32,3 @@ async def main():
 
 if __name__ == '__main__':
     asyncio.run(main())
-
