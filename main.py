@@ -13,9 +13,10 @@ async def speak(text):
     engine.say(text)
     engine.runAndWait()
 
+
 async def main():
-    await speak("Hello, I am Jarvis, how may I assist youu")
     print("Kira")
+    await speak("Hello, I am Jarvis, how may I assist you")
 
 if __name__ == '__main__':
     aio.run(main())
